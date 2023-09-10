@@ -259,7 +259,7 @@ for (var i = 0; i < numsArr.length; i++) {
        }
   }
 }
-console.log(numsArr);??????
+console.log(numsArr);
 
 
  
