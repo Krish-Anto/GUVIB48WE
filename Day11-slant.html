@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slanted Box with Bootstrap</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .slant-box {
+            background-color: #3498db;
+            position: relative;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .slant {
+            background-color: #e74c3c;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            transform-origin: 0% 100%;
+            transform: skewY(-10deg);
+        }
+
+        .content {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="content">
+                    <h1>Slanted Box</h1>
+                    <p>This is a slanted box inside a container using Bootstrap's responsive web design.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="slant-box">
+                    <div class="slant"></div>
+                    <div class="content">
+                        <h1>Slanted Box</h1>
+                        <p>This is a slanted box inside a container using Bootstrap's responsive web design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
