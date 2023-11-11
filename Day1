@@ -4,4 +4,4 @@ HTTP/1.1 loads resources one after the other, so if one resource cannot be loade
 
 2.Write a blog about objects and its internal representation in Javascript
 
-“A JavaScript object is a collection of named values having state and behavior (properties and method)”. For example: Person, car, pen, bike, Personal Computer , Washing Machine etc. Take the case of cars. All cars have the same properties, but the property values differ from car to car.
+“A JavaScript object is a collection of named, values having state and behavior (properties and method)”. For example: Person, car, pen, bike, Personal Computer , Washing Machine etc. Take the case of cars. All cars have the same properties, but the property values differ from car to car.
