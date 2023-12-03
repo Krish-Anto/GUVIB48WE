@@ -72,7 +72,9 @@ class UberPrice {
 
         return totalFare.toFixed(2);
     }
+var fare = new UberPrice(2,3);
 
+console.log(fare.calculateFare());
 
 }
 
